@@ -46,7 +46,7 @@ const infos = [
   { val: 'Osasco, SP', label: 'Sede' },
   { val: 'Dez/2024', label: 'Fundação' },
   { val: 'Brasil todo', label: 'Cobertura' },
-  { val: 'Moda Feminina', label: 'Especialidade' },
+  { val: 'Moda feminina', label: 'Onde começamos' },
 ]
 const valores = [
   { title: 'Indicações reais', desc: 'Só indicamos fornecedores que conhecemos de verdade.' },

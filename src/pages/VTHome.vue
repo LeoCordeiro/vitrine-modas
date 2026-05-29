@@ -122,9 +122,9 @@
 const tags = ['Casual', 'Fitness', 'Plus Size', 'Lingerie', 'Masculino', 'Times', 'Infantil']
 
 const metricas = [
-  { value: '+12', label: 'segmentos de moda' },
-  { value: '+200', label: 'fornecedores na rede' },
-  { value: '100%', label: 'seleção personalizada' },
+  { value: '24h', label: 'tempo de retorno' },
+  { value: '5 dias', label: 'proposta pronta' },
+  { value: '100%', label: 'sem compromisso' },
 ]
 
 const checklist = [
@@ -143,7 +143,7 @@ const faixa = [
 
 const estilos = [
   { tag: 'Casual', desc: 'Fornecedores pra quem vende peças do dia a dia. Pedido mínimo acessível e boa margem.' },
-  { tag: 'Feminino Premium', desc: 'Fabricantes com acabamento mais caprichado, pra boutiques e lojas com ticket mais alto.' },
+  { tag: 'Feminino Premium', desc: 'Fabricantes com acabamento mais caprichado, pra boutiques e lojas com preço mais alto.' },
   { tag: 'Moda Fitness', desc: 'Coleções renovadas com frequência e muita demanda em revenda online e física.' },
   { tag: 'Plus Size', desc: 'Fornecedores com modelagem feita pra esse público — segmento que cresce todo ano.' },
   { tag: 'Moda Praia', desc: 'Muito procurado em revendas online. Coleções sazonais com boas margens.' },
@@ -152,7 +152,7 @@ const estilos = [
   { tag: 'Moda Masculina', desc: 'Segmento sólido com demanda constante em lojas físicas e online.' },
   { tag: 'Camisas de Times', desc: 'Produto de saída rápida. Altíssima demanda em épocas de campeonatos.' },
   { tag: 'Moda Infantil', desc: 'Público fiel e coleções renovadas. Demanda constante o ano todo.' },
-  { tag: 'Moda Evangélica', desc: 'Um dos nichos que mais crescem no país. Ticket médio elevado e cliente fiel.' },
+  { tag: 'Moda Evangélica', desc: 'Um dos nichos que mais crescem no país. Valor médio elevado e cliente muito fiel.' },
   { tag: 'Moda Festa', desc: 'Alta margem de revenda. Ótimo para formaturas e datas especiais.' },
 ]
 

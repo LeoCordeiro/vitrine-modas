@@ -49,16 +49,16 @@
 <script setup>
 const categorias = [
   { tag: 'Casual', nivel: 'Entrada a Médio', desc: 'Fornecedores pra quem vende peças do dia a dia. Pedido mínimo acessível e boa margem.', items: ['Camisas e blusas básicas', 'Calças e leggings casuais', 'Vestidos do dia a dia', 'Conjuntos casuais'] },
-  { tag: 'Feminino Premium', nivel: 'Médio a Alto', desc: 'Fabricantes com acabamento mais caprichado. Bom pra boutiques e lojas com ticket mais alto.', items: ['Peças de alfaiataria', 'Vestidos de festa e passeio', 'Conjuntos sofisticados', 'Tecidos nobres'] },
+  { tag: 'Feminino Premium', nivel: 'Médio a Alto', desc: 'Fabricantes com acabamento mais caprichado. Bom pra boutiques e lojas com preço mais alto.', items: ['Peças de alfaiataria', 'Vestidos de festa e passeio', 'Conjuntos sofisticados', 'Tecidos nobres'] },
   { tag: 'Moda Fitness', nivel: 'Médio', desc: 'Coleções novas com frequência e alta demanda em revendas online e físicas.', items: ['Leggings e tops de academia', 'Conjuntos de academia', 'Looks esportivos casuais', 'Tecidos esportivos'] },
   { tag: 'Plus Size', nivel: 'Entrada a Médio', desc: 'Modelagem feita pra esse público. Segmento que cresce bastante no Brasil todo ano.', items: ['Moda feminina P ao 54', 'Peças com modelagem inclusiva', 'Básicos e fashion plus', 'Lingerie plus size'] },
   { tag: 'Moda Praia', nivel: 'Médio', desc: 'Muito procurado em revendas online. Coleções sazonais com boas margens de revenda.', items: ['Biquínis e maiôs', 'Saídas de praia', 'Acessórios de praia', 'Coleções sazonais'] },
   { tag: 'Básicos & Essenciais', nivel: 'Entrada', desc: 'Ótimo pra quem está começando. Pedido mínimo baixo e peças que sempre saem.', items: ['Camisetas básicas', 'Calças e bermudas neutras', 'Peças-base para looks', 'Alta demanda constante'] },
   { tag: 'Lingerie & Moda Íntima', nivel: 'Entrada a Médio', desc: 'Alta procura em todo o Brasil. Clientela fiel, boa margem e variedade de tamanhos e modelos.', items: ['Sutiãs e calcinhas', 'Pijamas e loungewear', 'Lingerie de festa', 'Cuecas e coleções masculinas'] },
-  { tag: 'Moda Masculina', nivel: 'Entrada a Médio', desc: 'Segmento sólido com demanda constante em lojas físicas e no online. Bom ticket médio.', items: ['Camisas sociais e casuais', 'Calças, bermudas e shorts', 'Conjuntos masculinos', 'Moda esportiva masculina'] },
+  { tag: 'Moda Masculina', nivel: 'Entrada a Médio', desc: 'Segmento sólido com demanda constante em lojas físicas e no online. Bom valor médio de compra.', items: ['Camisas sociais e casuais', 'Calças, bermudas e shorts', 'Conjuntos masculinos', 'Moda esportiva masculina'] },
   { tag: 'Camisas de Times', nivel: 'Entrada', desc: 'Produto de saída rápida. Altíssima demanda em épocas de campeonatos e jogos.', items: ['Times brasileiros (Série A e B)', 'Seleção brasileira', 'Times internacionais', 'Réplicas e modelos exclusivos'] },
   { tag: 'Moda Infantil', nivel: 'Entrada a Médio', desc: 'Público fiel e coleções renovadas com frequência. Demanda constante o ano todo.', items: ['Roupas de bebê (0 a 2 anos)', 'Infantil menina e menino', 'Conjuntos e bodies', 'Moda teen'] },
-  { tag: 'Moda Evangélica', nivel: 'Médio', desc: 'Um dos nichos que mais crescem no Brasil. Ticket médio elevado e cliente extremamente fiel.', items: ['Vestidos longos e saias', 'Roupas sociais discretas', 'Moda gospel feminina', 'Roupas para eventos religiosos'] },
+  { tag: 'Moda Evangélica', nivel: 'Médio', desc: 'Um dos nichos que mais crescem no Brasil. Valor médio elevado e cliente muito fiel.', items: ['Vestidos longos e saias', 'Roupas sociais discretas', 'Moda gospel feminina', 'Roupas para eventos religiosos'] },
   { tag: 'Moda Festa', nivel: 'Médio a Alto', desc: 'Alta margem de revenda e ótimo pra datas especiais e temporada de formaturas.', items: ['Vestidos de festa e formatura', 'Looks para madrinha e debutante', 'Moda de noiva e convidada', 'Acessórios para ocasiões especiais'] },
 ]
 </script>

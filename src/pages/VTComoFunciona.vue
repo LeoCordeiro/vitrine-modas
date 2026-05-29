@@ -65,7 +65,7 @@ const steps = [
   { num: '01', icon: 'mdi-clipboard-text-outline', badge: 'Você faz',       title: 'Dados do negócio',       desc: 'Você preenche um formulário rápido com nicho, estilo, faixa de preço e volume de compra.' },
   { num: '02', icon: 'mdi-magnify',                badge: 'A gente faz',    title: 'Seleção no catálogo',    desc: 'Buscamos na nossa rede os fornecedores que mais se encaixam no seu perfil.' },
   { num: '03', icon: 'mdi-handshake-outline',      badge: 'A gente faz',    title: 'Contato direto',         desc: 'Entramos em contato com os fornecedores por você, apresentamos seu perfil e negociamos as condições.' },
-  { num: '04', icon: 'mdi-shield-check-outline',   badge: 'Garantia nossa', title: 'Verificação de qualidade', desc: 'Avaliamos os produtos, o histórico e como o fornecedor costuma cumprir os prazos antes de indicar.' },
+  { num: '04', icon: 'mdi-shield-check-outline',   badge: 'A gente verifica', title: 'Verificação de qualidade', desc: 'Avaliamos os produtos, o histórico e como o fornecedor costuma cumprir os prazos antes de indicar.' },
   { num: '05', icon: 'mdi-file-document-outline',  badge: 'Você recebe',    title: 'Resumo final',           desc: 'Você recebe um resumo completo com os fornecedores indicados, condições negociadas e contatos diretos para fechar negócio.' },
 ]
 </script>
