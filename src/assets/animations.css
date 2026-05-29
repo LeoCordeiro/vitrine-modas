@@ -1,0 +1,69 @@
+/* ─── Keyframes ─── */
+@keyframes vtFadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes vtFadeUpSm {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ─── Scroll reveal ─── */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ─── Hero stagger (anima ao montar, sem observer) ─── */
+.hero-anim {
+  animation: vtFadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.hero-anim-1 { animation-delay: 0.08s; }
+.hero-anim-2 { animation-delay: 0.20s; }
+.hero-anim-3 { animation-delay: 0.32s; }
+.hero-anim-4 { animation-delay: 0.44s; }
+.hero-anim-5 { animation-delay: 0.56s; }
+.hero-anim-6 { animation-delay: 0.68s; }
+
+/* ─── Page header stagger ─── */
+.page-anim {
+  animation: vtFadeUpSm 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.page-anim-1 { animation-delay: 0.06s; }
+.page-anim-2 { animation-delay: 0.18s; }
+.page-anim-3 { animation-delay: 0.28s; }
+
+/* ─── Hero logo + checklist ─── */
+@keyframes vtLogoReveal {
+  0%   { opacity: 0; transform: scale(0.5); filter: blur(12px); }
+  65%  { opacity: 1; transform: scale(1.04); filter: blur(0); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+@keyframes vtCheckIn {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.hero-logo-anim {
+  animation: vtLogoReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 0.3s;
+}
+.hero-check-anim {
+  animation: vtCheckIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ─── Page transition ─── */
+.page-enter-active {
+  transition: opacity 0.38s ease, transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.page-leave-active {
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+.page-enter-from { opacity: 0; transform: translateY(16px); }
+.page-leave-to   { opacity: 0; transform: translateY(-8px); }
