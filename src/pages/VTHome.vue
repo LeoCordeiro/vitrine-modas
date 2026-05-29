@@ -23,7 +23,8 @@
             </p>
 
             <div class="hero-tags hero-anim hero-anim-4">
-              <span class="tag" v-for="t in tags" :key="t">{{ t }}</span>
+              <router-link to="/catalogo" class="tag" v-for="t in tags" :key="t">{{ t }}</router-link>
+              <router-link to="/catalogo" class="tag tag--outros">+ Outros</router-link>
             </div>
 
             <div class="hero-actions hero-anim hero-anim-5">
@@ -118,7 +119,7 @@
 </template>
 
 <script setup>
-const tags = ['Casual', 'Fitness', 'Plus Size', 'Lingerie', 'Masculino', 'Times', 'Infantil', 'Evangélica', 'Festa', 'Praia']
+const tags = ['Casual', 'Fitness', 'Plus Size', 'Lingerie', 'Masculino', 'Times', 'Infantil']
 
 const metricas = [
   { value: '+12', label: 'segmentos de moda' },
@@ -228,10 +229,16 @@ const estilos = [
   border: 1px solid rgba(167,139,250,0.25);
   font-size: 11px; color: rgba(245,243,255,0.45);
   border-radius: 100px;
-  transition: all 0.2s; cursor: default;
+  transition: all 0.2s; cursor: pointer;
   font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
 }
-.tag:hover { border-color: #A78BFA; color: #C084FC; }
+.tag:hover { border-color: #A78BFA; color: #C084FC; transform: translateY(-1px); }
+.tag--outros {
+  border-color: rgba(167,139,250,0.45);
+  color: rgba(167,139,250,0.7);
+  font-weight: 600;
+}
 
 .hero-actions { display: flex; align-items: center; gap: 16px; margin-bottom: 40px; flex-wrap: wrap; }
 
