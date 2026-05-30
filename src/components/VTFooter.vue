@@ -23,7 +23,7 @@
           <p class="footer-col-title">Contato</p>
           <div class="d-flex flex-column" style="gap:8px">
             <a href="https://wa.me/5511916395526" target="_blank" class="footer-link">WhatsApp: (11) 91639-5526</a>
-            <a href="mailto:atendimento@vetrinemodas.com.br" class="footer-link">atendimento@vetrinemodas.com.br</a>
+            <a href="mailto:atendimento@vitrinemodas.com.br" class="footer-link">atendimento@vitrinemodas.com.br</a>
             <span class="footer-info">Osasco, SP</span>
             <span class="footer-info" style="margin-top:8px; font-size:11px; color:#C4BDD4">CNPJ: 58.405.439/0001-84</span>
           </div>
