@@ -6,6 +6,7 @@ import VTCatalogo from '@/pages/VTCatalogo.vue'
 import VTSolicitarCuradoria from '@/pages/VTSolicitarCuradoria.vue'
 import VTPoliticaPrivacidade from '@/pages/VTPoliticaPrivacidade.vue'
 import VTPoliticaTermos from '@/pages/VTPoliticaTermos.vue'
+import VTPoliticaRepasse from '@/pages/VTPoliticaRepasse.vue'
 
 const routes = [
   { path: '/', component: VTHome },
@@ -15,6 +16,7 @@ const routes = [
   { path: '/solicitar', component: VTSolicitarCuradoria },
   { path: '/privacidade', component: VTPoliticaPrivacidade },
   { path: '/termos', component: VTPoliticaTermos },
+  { path: '/repasse', component: VTPoliticaRepasse },
 ]
 
 const router = createRouter({

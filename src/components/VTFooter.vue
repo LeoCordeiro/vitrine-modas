@@ -34,6 +34,7 @@
           <div class="d-flex flex-column" style="gap:10px">
             <router-link to="/termos" class="footer-link">Termos de Uso</router-link>
             <router-link to="/privacidade" class="footer-link">Privacidade</router-link>
+            <router-link to="/repasse" class="footer-link">Política de Repasse</router-link>
           </div>
         </div>
       </div>
